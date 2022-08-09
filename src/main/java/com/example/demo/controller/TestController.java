@@ -2,9 +2,10 @@ package com.example.demo.controller;
  
 import java.util.HashMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.stereotype.Controller;
  
-@Controller
+@RestController
 public class TestController{
  
     @RequestMapping("/hello")
